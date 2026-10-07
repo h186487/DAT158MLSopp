@@ -1,0 +1,107 @@
+{
+  "cap-shape": {
+    "label": "Hattform",
+    "help": "Formen på soppens hatt.",
+    "options": {"b": "Klokkeformet", "c": "Konisk", "f": "Flat", "k": "Med knott", "s": "Innsunket", "x": "Konveks (buet)"}
+  },
+  "cap-surface": {
+    "label": "Hattoverflate",
+    "help": "Hvordan overflaten på hatten ser ut.",
+    "options": {"f": "Trevlet", "g": "Med riller", "s": "Glatt", "y": "Skjellete"}
+  },
+  "cap-color": {
+    "label": "Hattfarge",
+    "help": "Fargen på hatten.",
+    "options": {"b": "Lysebrun (buff)", "c": "Kanel", "e": "Rød", "g": "Grå", "n": "Brun", "p": "Rosa", "r": "Grønn", "u": "Lilla", "w": "Hvit", "y": "Gul"}
+  },
+  "bruises": {
+    "label": "Misfarges ved trykk",
+    "help": "Får soppen blåmerker eller misfarging når du tar på den?",
+    "options": {"t": "Ja", "f": "Nei"}
+  },
+  "odor": {
+    "label": "Lukt",
+    "help": "Hvordan lukter soppen?",
+    "options": {"a": "Mandel", "c": "Kreosot (tjære)", "f": "Råtten/stinkende", "l": "Anis", "m": "Muggen", "n": "Ingen lukt", "p": "Stikkende", "s": "Krydret", "y": "Fisk"}
+  },
+  "gill-attachment": {
+    "label": "Lamellenes feste",
+    "help": "Hvordan lamellene under hatten sitter fast i stilken.",
+    "options": {"a": "Festet", "f": "Frie"}
+  },
+  "gill-spacing": {
+    "label": "Lamellavstand",
+    "help": "Hvor tett lamellene sitter.",
+    "options": {"c": "Tett", "w": "Veldig tett (trangt)"}
+  },
+  "gill-size": {
+    "label": "Lamellstørrelse",
+    "help": "Hvor brede lamellene er.",
+    "options": {"b": "Brede", "n": "Smale"}
+  },
+  "gill-color": {
+    "label": "Lamellfarge",
+    "help": "Fargen på lamellene under hatten.",
+    "options": {"b": "Lysebrun (buff)", "e": "Rød", "g": "Grå", "h": "Sjokoladebrun", "k": "Svart", "n": "Brun", "o": "Oransje", "p": "Rosa", "r": "Grønn", "u": "Lilla", "w": "Hvit", "y": "Gul"}
+  },
+  "stalk-shape": {
+    "label": "Stilkform",
+    "help": "Formen på stilken.",
+    "options": {"e": "Utvidende mot bunnen", "t": "Avsmalnende mot bunnen"}
+  },
+  "stalk-root": {
+    "label": "Stilkrot",
+    "help": "Formen på stilkens nedre del/rot.",
+    "options": {"b": "Løkformet", "c": "Klubbeformet", "e": "Jevn", "r": "Rotfestet"}
+  },
+  "stalk-surface-above-ring": {
+    "label": "Stilkoverflate over ring",
+    "help": "Overflaten på stilken over ringen.",
+    "options": {"f": "Trevlet", "k": "Silkeaktig", "s": "Glatt", "y": "Skjellete"}
+  },
+  "stalk-surface-below-ring": {
+    "label": "Stilkoverflate under ring",
+    "help": "Overflaten på stilken under ringen.",
+    "options": {"f": "Trevlet", "k": "Silkeaktig", "s": "Glatt", "y": "Skjellete"}
+  },
+  "stalk-color-above-ring": {
+    "label": "Stilkfarge over ring",
+    "help": "Fargen på stilken over ringen.",
+    "options": {"b": "Lysebrun (buff)", "c": "Kanel", "e": "Rød", "g": "Grå", "n": "Brun", "o": "Oransje", "p": "Rosa", "w": "Hvit", "y": "Gul"}
+  },
+  "stalk-color-below-ring": {
+    "label": "Stilkfarge under ring",
+    "help": "Fargen på stilken under ringen.",
+    "options": {"b": "Lysebrun (buff)", "c": "Kanel", "e": "Rød", "g": "Grå", "n": "Brun", "o": "Oransje", "p": "Rosa", "w": "Hvit", "y": "Gul"}
+  },
+  "veil-color": {
+    "label": "Slørfarge",
+    "help": "Fargen på slørhinnen (hinnen som dekker lamellene hos unge sopper).",
+    "options": {"n": "Brun", "o": "Oransje", "w": "Hvit", "y": "Gul"}
+  },
+  "ring-number": {
+    "label": "Antall ringer",
+    "help": "Hvor mange ringer har stilken?",
+    "options": {"n": "Ingen", "o": "Én", "t": "To"}
+  },
+  "ring-type": {
+    "label": "Ringtype",
+    "help": "Typen ring på stilken.",
+    "options": {"e": "Forsvinner raskt", "f": "Utflytende", "l": "Stor", "n": "Ingen ring", "p": "Hengende"}
+  },
+  "spore-print-color": {
+    "label": "Sporeavtrykksfarge",
+    "help": "Fargen på sporene når hatten legges på papir (sporeavtrykk).",
+    "options": {"b": "Lysebrun (buff)", "h": "Sjokoladebrun", "k": "Svart", "n": "Brun", "o": "Oransje", "r": "Grønn", "u": "Lilla", "w": "Hvit", "y": "Gul"}
+  },
+  "population": {
+    "label": "Forekomst",
+    "help": "Hvordan soppen vokser i forhold til andre.",
+    "options": {"a": "Mange (tallrike)", "c": "I klynger", "n": "Mange (tett)", "s": "Spredt", "v": "Flere", "y": "Enkeltvis"}
+  },
+  "habitat": {
+    "label": "Voksested",
+    "help": "Hvor soppen vokser.",
+    "options": {"d": "Skog", "g": "Gress", "l": "Løv", "m": "Eng", "p": "Stier", "u": "Urbant", "w": "Avfall/forsøplet"}
+  }
+}
