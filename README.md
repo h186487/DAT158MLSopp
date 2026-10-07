@@ -1,5 +1,3 @@
-# DAT158MLSopp
-
 # Mushroom classifier (DAT158, ML Assignment 2)
 
 Web-app som forutsier om en sopp er giftig eller spiselig, bygget med UCI Mushroom-datasettet.
