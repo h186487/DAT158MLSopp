@@ -1,0 +1,6 @@
+Modell,Recall (giftig),Precision,Accuracy,FN per fold,Tid per fit (s)
+Logistic Regression,0.9993 ± 0.0018,1.0000 ± 0.0000,0.9996 ± 0.0009,0.47,0.24
+Decision Tree (depth=3),0.9980 ± 0.0020,0.9733 ± 0.0052,0.9858 ± 0.0029,1.27,0.17
+Decision Tree (ubegrenset),0.9995 ± 0.0012,1.0000 ± 0.0000,0.9997 ± 0.0006,0.33,0.30
+Random Forest,1.0000 ± 0.0000,1.0000 ± 0.0000,1.0000 ± 0.0000,0.00,1.04
+Gradient Boosting,0.9994 ± 0.0012,1.0000 ± 0.0000,0.9997 ± 0.0006,0.40,0.93
