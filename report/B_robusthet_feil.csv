@@ -1,0 +1,9 @@
+Andel feil verdier,Modell,Recall (giftig),Accuracy,FN (snitt)
+0 %,Uten maskering i trening,1.0,1.0,0.0
+0 %,Med maskering i trening,1.0,1.0,0.0
+5 %,Uten maskering i trening,0.997,0.997,2.3
+5 %,Med maskering i trening,0.999,0.998,0.8
+10 %,Uten maskering i trening,0.991,0.991,6.8
+10 %,Med maskering i trening,0.996,0.994,2.8
+20 %,Uten maskering i trening,0.975,0.976,20.1
+20 %,Med maskering i trening,0.983,0.977,13.1

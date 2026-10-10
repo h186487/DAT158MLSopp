@@ -1,0 +1,11 @@
+Andel 'unknown',Modell,Recall (giftig),Accuracy,FN (snitt)
+0 %,Uten maskering i trening,1.0,1.0,0.0
+0 %,Med maskering i trening,1.0,1.0,0.0
+10 %,Uten maskering i trening,0.996,0.998,3.0
+10 %,Med maskering i trening,1.0,1.0,0.4
+20 %,Uten maskering i trening,0.985,0.992,12.1
+20 %,Med maskering i trening,0.998,0.999,1.4
+40 %,Uten maskering i trening,0.915,0.955,66.9
+40 %,Med maskering i trening,0.972,0.984,21.7
+60 %,Uten maskering i trening,0.755,0.874,191.6
+60 %,Med maskering i trening,0.91,0.946,70.3
