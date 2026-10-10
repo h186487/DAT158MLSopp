@@ -1,0 +1,8 @@
+Modell,Recall (giftig),Precision (giftig),Accuracy,False negatives,False positives
+Top 1: odor,0.971,1.0,0.986,23,0
+"Top 2: odor, spore-print-color",0.985,1.0,0.993,12,0
+"Top 3: odor, spore-print-color, stalk-surface-below-ring",0.996,0.995,0.996,3,4
+"Top 4: odor, spore-print-color, stalk-surface-below-ring, cap-surface",0.997,0.996,0.997,2,3
+"Top 5: odor, spore-print-color, stalk-surface-below-ring, cap-surface, gill-size",0.997,1.0,0.999,2,0
+"Top 8: odor, spore-print-color, stalk-surface-below-ring, cap-surface, gill-size, cap-shape, cap-color, bruises",1.0,1.0,1.0,0,0
+Alle 21 features,1.0,1.0,1.0,0,0
