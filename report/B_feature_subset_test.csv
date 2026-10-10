@@ -1,0 +1,8 @@
+Modell,Recall (giftig),Precision (giftig),Accuracy,False negatives,False positives
+Top 1: ring-number,0.986,0.511,0.538,11,740
+"Top 2: ring-number, gill-attachment",0.986,0.526,0.564,11,697
+"Top 3: ring-number, gill-attachment, veil-color",0.986,0.526,0.564,11,697
+"Top 5: ring-number, gill-attachment, veil-color...",0.992,0.997,0.995,6,2
+"Top 8: ring-number, gill-attachment, veil-color...",1.0,0.997,0.999,0,2
+"Top 10: ring-number, gill-attachment, veil-color...",1.0,1.0,1.0,0,0
+Alle 21 features,1.0,1.0,1.0,0,0
