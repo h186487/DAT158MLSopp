@@ -1,1 +1,6 @@
-
+   pandas
+   scikit-learn==1.6.1
+   ucimlrepo
+   streamlit
+   joblib
+   pytest
