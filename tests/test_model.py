@@ -7,21 +7,21 @@ import pytest
 BASE = Path(__file__).resolve().parent.parent
 LABEL = "poisonous"
 
-@pytext.fixture(scope = "module")
+@pytest.fixture(scope = "module")
 def model():
   return joblib.load(BASE / "models" / "model.joblib")
 
-@pytext.fixture(scope = "module")
+@pytest.fixture(scope = "module")
 def features():
   with open(BASE / "data" / "processed" / "features.json") as f:
     return json.load(f)
 
-@pytext.fixture(scope = "module")
+@pytest.fixture(scope = "module")
 def cfg():
   with open(BASE / "models" / "config.json") as f:
     return json.load(f)
 
-@pytext.fixture(scope = "module")
+@pytest.fixture(scope = "module")
 def test_df():
   return pd.read_csv(BASE / "data" / "processed" / "test.csv")
 
