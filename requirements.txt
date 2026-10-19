@@ -1,6 +1,6 @@
-   pandas
+   pandas==3.0.6
    scikit-learn==1.6.1
-   ucimlrepo
-   streamlit
-   joblib
-   pytest
+   ucimlrepo==0.0.7
+   streamlit==1.66.0
+   joblib==1.6.0
+   pytest==9.1.1
