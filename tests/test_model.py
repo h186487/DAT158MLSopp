@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 import pytest
 
-BASE = Path(__file__).resolve.().parent.parent
+BASE = Path(__file__).resolve().parent.parent
 LABEL = "poisonous"
 
 @pytext.fixture(scope = "module")
