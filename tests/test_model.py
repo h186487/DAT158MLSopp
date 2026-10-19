@@ -18,7 +18,7 @@ def features():
 
 @pytext.fixture(scope = "module")
 def cfg():
-  with open(BASE / "models" / "config.json" as f:
+  with open(BASE / "models" / "config.json") as f:
     return json.load(f)
 
 @pytext.fixture(scope = "module")
