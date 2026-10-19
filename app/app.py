@@ -30,7 +30,7 @@ if st.button("Vurder sopp"):
     if p >= cfg["T_HIGH"]:
         st.error(f"Sannsynlig giftig ({p:.0%})")
     elif p <= cfg["T_LOW"]:
-        st.success("Ingen tegn på gift i disse opplysningene")
+        st.success("Ingen tegn på gift ut ifra disse opplysninger")
     else:
         st.warning("Usikker, ikke spis")
-    st.caption("Ikke bruk til å avgjøre om en sopp er trygg å spise.")
+    st.caption("Ikke bruk resultat til å avgjøre om en sopp er trygg å spise.")
