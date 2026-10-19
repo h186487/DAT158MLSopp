@@ -20,7 +20,17 @@ Læringsdemo, ikke et sikkerhetsverktøy.
 - `report/`: rapport
 
 ## Reprodusere
-(C fyller ut)
+Krever Python 3.12 og schit-learn 1.6.1 (modellen er trent med denne versjonen og appen deployet på Python 3.12)
 
-## Live app / video
-(C fyller ut)
+```bash
+git clone https://github.com/h186487/DAT158MLSopp.git
+cd DAT158MLSopp
+pip install -r requirements.txt
+python src/prepare_data.py
+python src/train.py
+streamlit run app/app.py
+pytest
+```
+
+## Live app
+- Live app: https://dat158mlsopp-d64hjvbnmd4hmebhlv6i6g.streamlit.app/
