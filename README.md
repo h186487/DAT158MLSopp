@@ -33,4 +33,4 @@ pytest
 ```
 
 ## Live app
-- Live app: https://dat158mlsopp-d64hjvbnmd4hmebhlv6i6g.streamlit.app/
+- Live app: https://dat158mlsopp-group10.streamlit.app/
